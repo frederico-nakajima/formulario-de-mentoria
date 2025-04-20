@@ -16,15 +16,12 @@
   </header>
   <div class="image-container">
     <img src="/assets/img1.svg" alt="">
-  </div>
-  
-  
+  </div>  
   <form>
     <div id="nome-sobrenome-email">
       <div id="flex-h2">
         <h2>Informações pessoais</h2>
-      </div>
-      
+      </div>      
       <div class="flex1">
         <div class="flex">
           <label for="nome">Nome</label>
@@ -34,8 +31,7 @@
           <label for="sobrenome">Sobrenome</label>
           <input type="text" id="sobrenome">
         </div>
-      </div>
-           
+      </div>           
       <div class="flex2">
         <div class="flex">
           <label for="email">Email <span>(digite um email válido)</span></label>
@@ -43,57 +39,50 @@
         </div>
       </div>
     </div>
-
-      <div id="informacoes-mentor">
-        <div class="flex1-h2">
-          <h2>Informações do mentor</h2>
+    <div id="informacoes-mentor">
+      <div class="flex1-h2">
+        <h2>Informações do mentor</h2>
+      </div>
+      <div class="flex3">
+        <div class="flex">
+          <label for="nome-mentor">Selecione quem foi o seu mentor</label>
+          <input type="text" id="nome-mentor">
         </div>
-        <div class="flex3">
-          <div class="flex">
-            <label for="nome-mentor">Selecione quem foi o seu mentor</label>
-            <input type="text" id="nome-mentor">
-          </div>
-          <div class="flex">
-            <label for="feedback-mentor">Feedback sobre o mentor</label>
-            <textarea id="feedback-mentor"></textarea>
-          </div>
-          <div id="flex-checkbox">
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
-          </div>
+        <div class="flex">
+          <label for="feedback-mentor">Feedback sobre o mentor</label>
+          <textarea id="feedback-mentor"></textarea>
+        </div>
+        <div id="flex-checkbox">
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
         </div>
       </div>
-
-      <div id="proxima-mentoria">
-        <div class="flex2-h2">
-          <h2>Agendando próxima mentoria</h2>
+    </div>
+    <div id="proxima-mentoria">
+      <div class="flex2-h2">
+        <h2>Agendando próxima mentoria</h2>
+      </div>      
+      <div class="flex2">
+        <div class="flex">
+          <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+          <input type="date" id="data">
         </div>
-        
-        <div class="flex2">
-          <div class="flex">
-            <label for="data">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="date" id="data">
-          </div>
-          <div class="flex">
-            <label for="inicio-mentoria">Das</label>
-            <input type="time" id="inicio-mentoria">
-          </div>
-          <div class="flex">
-            <label for="fim-mentoria">Até</label>
-            <input type="time" id="fim-mentoria">
-          </div>
+        <div class="flex">
+          <label for="inicio-mentoria">Das</label>
+          <input type="time" id="inicio-mentoria">
         </div>
-
-        <div id="botao-submit">
-          <input
-          type="submit"
-          id="botao"
-          value="SALVAR">
+        <div class="flex">
+          <label for="fim-mentoria">Até</label>
+          <input type="time" id="fim-mentoria">
         </div>
-             
-      
-  </form>
-
-  
+      </div>
+      <div id="botao-submit">
+        <input
+        type="submit"
+        id="botao"
+        value="SALVAR">
+      </div>
+    </div>
+  </form>  
 </body>
 </html>
